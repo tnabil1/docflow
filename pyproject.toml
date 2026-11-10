@@ -1,0 +1,17 @@
+[project]
+name = "docflow"
+version = "0.1.0"
+description = "Préparation de documents pour un système RAG : lecture, nettoyage, découpage et stockage"
+readme = "README.md"
+authors = [
+    { name = "Touhami Nabil", email = "tr4p.nabil@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+docflow = "docflow:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
